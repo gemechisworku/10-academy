@@ -134,6 +134,3 @@ If you'd like these changes pushed to the remote repository, I can finish the me
 - `package.json`: updated `test` script to include the new test file.
 - `.github/copilot-instructions.md`: updated with development and workflow notes used during implementation.
 - `CHANGE_SUMMARY.md`: added as a small changelog for the recent edits.
-- Run the full test suite with:
-```bash
-npm test
