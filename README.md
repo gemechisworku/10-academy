@@ -114,27 +114,8 @@ If you'd like I can add an ESLint configuration and a `lint` script.
 
 ## Author / Maintainer
 
-Primary work performed by the repository owner. If you want an explicit author line, provide a name and email and I'll add it.
-
-## License
-
-This repository does not include a license file. Add `LICENSE` if you want to declare terms.
-
-# 10-academy
-10 Academy Challenge
-
-Canonicalize
-
-Functions:
-
-- `canonicalize(value)` -> stable JSON string
-- `hashCanonical(value)` -> sha256 hex of canonical string
-
-Run tests:
-
-```bash
-npm test
-```
+- Created by Gemechis worku.
+- Email: game.worku@gmail.com
 
 ## Contributions & Changes
 
@@ -153,16 +134,6 @@ If you'd like these changes pushed to the remote repository, I can finish the me
 - `package.json`: updated `test` script to include the new test file.
 - `.github/copilot-instructions.md`: updated with development and workflow notes used during implementation.
 - `CHANGE_SUMMARY.md`: added as a small changelog for the recent edits.
-
-## My Contributions
-Thanks — I updated the project to include a deterministic retry helper and tests. Notes for you:
-
-- Tests are deterministic: `sleep` and `random` are injected via `opts` so CI or local runs stay stable.
 - Run the full test suite with:
-
 ```bash
 npm test
-```
-
-- There is no `lint` script yet; if you want ESLint added I can scaffold it and run autofixes.
-- I committed the README changes locally. If you want me to push all commits to the remote I can continue the merge/rebase and push (I stopped earlier due to a remote conflict in `README.md`, which I resolved).
